@@ -16,5 +16,4 @@ public interface ProductClient {
 
     @GetMapping()
     List<ProductResponseDto> getAll();
-
 }
